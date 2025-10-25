@@ -1,10 +1,10 @@
 const ThemeToggle = ({ onToggle, currentTheme }) => {  
-  const isDark = currentTheme === 'dark';
+  const isDark = currentTheme === 'light';
 
   return (
     <button
       onClick={onToggle}
-      className="p-2 rounded-full  text-black dark:text-white bg-gradient-to-r from-indigo-500 to-violet-500"
+      className="p-2 rounded-full text-white bg-gradient-to-r from-indigo-500 to-violet-500"
       aria-label="Toggle dark mode"
     >
       {/* Sun icon: Show only in light mode (React conditional) */}
