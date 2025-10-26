@@ -60,6 +60,7 @@ Open `http://localhost:5173` in your browser to view the dashboard.
   npm run build
 ```
 ## Folder Structure
+```
 developer-dashboard/
 ├── public/
 │   ├── # Screenshots for README
@@ -77,7 +78,7 @@ developer-dashboard/
 ├── vite.config.js               # Vite configuration
 ├── package.json                 # Project dependencies and scripts
 ├── README.md                    # Project documentation
-
+```
 ## Features
 
 - GitHub Profile Card: Displays user avatar, name, repositories, followers, and following, with a link to the GitHub profile.
