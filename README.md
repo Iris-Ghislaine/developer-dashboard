@@ -1,18 +1,34 @@
-# React + Vite
+# Developer Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The **Developer Dashboard** is a responsive React application that displays real-time data from the GitHub and OpenWeatherMap APIs. It features a GitHub Profile Card showing user statistics (avatar, repositories, followers, following) and a Weather Card displaying current weather data (temperature, condition, wind speed, humidity, and time) for a specified city. The dashboard includes a Light/Dark mode toggle with persistent theme storage, built using Tailwind CSS for a modern, responsive design.
 
-Currently, two official plugins are available:
+## APIs Used
+- **GitHub API**: `https://api.github.com/users/Iris-Ghislaine`  
+  Fetches user profile data, including avatar, repository count, followers, and following.
+- **OpenWeatherMap API**: `https://api.openweathermap.org/data/2.5/weather`  
+  Provides current weather data for a specified city (e.g., Kigali).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: For building reusable components and managing state.
+- **Tailwind CSS**: For responsive, modern styling with dark mode support.
+- **Axios**: For making API requests to GitHub and OpenWeatherMap.
+- **Lucide-React**: For icons used in the UI.
+- **Vite**: As the build tool for fast development and hot module replacement.
 
-## React Compiler
+## Screenshots
+# Light Mode
+![alt text](public/LightMode.png)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+# Dark Mode
+![alt text](public/Darkmode.png)
 
-Note: This will impact Vite dev & build performances.
+## Deployment Link
 
-## Expanding the ESLint configuration
+*Live Demo : https://devop-dashboard.netlify.app/*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Iris-Ghislaine/developer-dashboard.git
+   cd developer-dashboard
