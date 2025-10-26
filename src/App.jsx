@@ -45,7 +45,7 @@ function App() {
     setWeatherLoading(true);
     axios
       .get(
-        'https://api.openweathermap.org/data/2.5/weather?q=London&appid=[YOUR_API_KEY]&units=metric'
+        'https://api.openweathermap.org/data/2.5/weather?q=Kigali&appid=[YOUR_API_KEY]&units=metric'
       )
       .then((response) => {
         setWeatherData(response.data);
