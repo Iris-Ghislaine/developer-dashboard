@@ -3,7 +3,7 @@ import { Code2 } from 'lucide-react';
 
 const Navbar = ({ onToggleTheme, currentTheme }) => {
   return (
-    <nav className="w-full bg-indigo-50 dark:bg-gray-900 fixed transition-smooth">
+    <nav className="w-full bg-white dark:bg-gray-900 fixed transition-smooth shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2 group">
           <div className="bg-gradient-to-r from-indigo-500 to-violet-500 dark:from-indigo-600 dark:to-violet-600 p-2 rounded-lg transition-transform group-hover:scale-110">
